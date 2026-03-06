@@ -1,0 +1,41 @@
+﻿@model IEnumerable<examen.Models.EntradaInventario>
+@{
+    ViewData["Title"] = "EntradaInventario";
+}
+
+
+<h1>Entrada de Inventario</h1>
+<div style="margin:30px;" class="d-grid gap-2">
+    <a asp-action="CrearEntrada" class="btn btn-lg btn-primary" type="button">Añadir Entrada</a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id Entrada</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Motivo</th>
+            <th scope="col" style="width:220px;">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entrada in Model)
+        {
+            <tr class="table-active">
+                <th scope="row">@entrada.Id</th>
+                <td>@entrada.Producto?.Nombre</td>
+                <td>@entrada.Cantidad</td>
+                <td>@entrada.Fecha</td>
+                <td>@entrada.Nota</td>
+                <td>
+                    <a asp-action="DetalleEntrada" asp-route-id="@entrada.Id" type="button" class="btn btn-outline-success">Detalle</a>
+                    <a asp-action="EditarEntrada" asp-route-id="@entrada.Id" type="button" class="btn btn-outline-success">Editar</a>
+                </td>
+
+
+            </tr>
+        }
+
+    </tbody>
+</table>

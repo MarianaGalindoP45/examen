@@ -1,0 +1,54 @@
+﻿@model examen.Models.Producto
+
+@{
+    ViewData["Title"] = "EliminarProducto";
+}
+
+
+<h1>Elimitar Producto</h1>
+
+<h3>¿Esta seguro de que desea eliminar este producto?</h3>
+<hr />
+<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+    <div class="card-header">Producto</div>
+    <div class="card-body">
+        <dl>
+            <dt>Id</dt>
+            <dd>@Model.Id</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.Nombre</dd>
+
+            <dt>SKU</dt>
+            <dd>@Model.SKU</dd>
+
+            <dt>Descripción</dt>
+            <dd>@Model.Descripcion</dd>
+
+            <dt>Precio</dt>
+            <dd>@Model.Precio</dd>
+
+            <dt>Unidad Medida</dt>
+            <dd>@Model.UnidadMedida</dd>
+
+            <dt>Categoria</dt>
+            <dd>@Model.Categoria?.Nombre</dd>
+
+            <dt>Stock</dt>
+            <dd>@Model.StockMinimo</dd>
+
+        </dl>
+    </div>
+</div>
+
+
+<div>
+
+    <form asp-action="EliminarProducto" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Productos" class="btn-secondary">Volver</a>
+
+    </form>
+
+</div>

@@ -1,0 +1,33 @@
+﻿@model examen.Models.SalidaInventario
+
+@{
+    ViewData["Title"] = "Salida de Inventario";
+}
+
+
+<h1>Salida de Inventario</h1>
+<hr />
+<form asp-action="CrearSalida" asp-controller="SalidaInventario" method="post">
+    <div class="mb-3">
+        <label asp-for="ProductoId" class="form-label" id="ProductoId"></label>
+        <select asp-for="ProductoId" class="form-control" asp-items="ViewBag.Productos"></select>
+        <span asp-validation-for="ProductoId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Cantidad" class="form-label" id="Cantidad"></label>
+        <input asp-for="Cantidad" class="form-control" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Fecha" class="form-label" id="Fecha"></label>
+        <input asp-for="Fecha" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Motivo" class="form-label" id="Motivo"></label>
+        <input asp-for="Motivo" class="form-control" />
+        <span asp-validation-for="Motivo" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>

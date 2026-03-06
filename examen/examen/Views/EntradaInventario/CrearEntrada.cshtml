@@ -1,0 +1,33 @@
+﻿@model examen.Models.EntradaInventario
+
+@{
+    ViewData["Title"] = "Entrada Inventario";
+}
+
+
+<h1>Entrada Inventario</h1>
+<hr />
+<form asp-action="CrearEntrada" asp-controller="EntradaInventario" method="post">
+    <div class="mb-3">
+        <label asp-for="ProductoId" class="form-label" id="CategoriaId"></label>
+        <select asp-for="ProductoId" class="form-control" asp-items="ViewBag.Productos"></select>
+        <span asp-validation-for="ProductoId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Cantidad" class="form-label" id="Cantidad"></label>
+        <input asp-for="Cantidad" class="form-control" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Fecha" class="form-label" id="Fecha"></label>
+        <input asp-for="Fecha" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Nota" class="form-label" id="Nota"></label>
+        <input asp-for="Nota" class="form-control" />
+        <span asp-validation-for="Nota" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>

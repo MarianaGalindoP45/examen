@@ -1,0 +1,50 @@
+﻿@model IEnumerable<examen.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+
+<h1>Productos</h1>
+<div style="margin:30px;" class="d-grid gap-2">
+    <a asp-action="CrearProducto" class="btn btn-lg btn-primary" type="button">Añadir Producto</a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">SKU</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Unidaad Medida</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Stock Minimo</th>
+            <th scope="col" style="width:220px;">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model)
+        {
+            <tr class="table-active">
+                <th scope="row">@producto.Id</th>
+                <td>@producto.Nombre</td>
+                <td>@producto.SKU</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.Precio</td>
+                <td>@producto.UnidadMedida</td>
+                <td>@producto.Categoria?.Nombre</td>
+                <td>@producto.StockMinimo</td>
+
+                <td>
+                    <a asp-action="DetalleProducto" asp-route-id="@producto.Id" type="button" class="btn btn-outline-success">Detalles</a>
+                    <a asp-action="EditarProducto" asp-route-id="@producto.Id" type="button" class="btn btn-outline-success">Editar</a>
+                    <a asp-action="EliminarProducto" asp-route-id="@producto.Id" type="button" class="btn btn-outline-success">Eliminar</a>
+                </td>
+
+
+            </tr>
+        }
+
+    </tbody>
+</table> 

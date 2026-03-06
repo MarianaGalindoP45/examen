@@ -1,0 +1,25 @@
+﻿@model examen.Models.Categoria
+
+@{
+    ViewData["Title"] = "DetalleCategoria";
+}
+
+
+<h1>Detalle Categoria</h1>
+<hr />
+
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Categoria</div>
+    <div class="card-body">
+        <dl>
+            <dt>Id</dt>
+            <dd>@Model.Id</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.Nombre</dd>
+
+        </dl>
+    </div>
+</div>
+
+<a asp-action="Categorias" class="btn-secondary">Volver</a>

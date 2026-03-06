@@ -1,0 +1,40 @@
+﻿@model IEnumerable<examen.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Categorias";
+}
+
+<h1>Categorias</h1>
+
+<div style="margin:30px;" class="d-grid gap-2">
+    <a asp-action="CrearCategoria" class="btn btn-lg btn-primary">Crear una nueva categoría</a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id Categoria</th>
+            <th scope="col">Nombre</th>
+            <th scope="col" style="width:220px;">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in Model)
+        {
+            <tr class="table-active">
+                <th scope="row">@categoria.Id</th>
+                <td>@categoria.Nombre</td>
+                <td>
+                    <div>
+                        <a asp-action="DetalleCategoria" asp-route-id="@categoria.Id" type="button" class="btn btn-outline-success">Detalle</a>
+                        <a asp-action="EditarCategoria" asp-route-id="@categoria.Id" type="button" class="btn btn-outline-success">Editar</a>
+                        <a asp-action="EliminarCategoria" asp-route-id="@categoria.Id" type="button" class="btn btn-outline-success">Eliminar</a>
+                    </div>
+                </td>
+
+
+            </tr>
+        }
+
+    </tbody>
+</table>
+

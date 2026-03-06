@@ -1,0 +1,32 @@
+﻿@model IEnumerable<examen.ViewModels.StockViewModel>
+
+@{
+    ViewData["Title"] = "Stock";
+}
+
+<h1>Stock de Productos</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>SKU</th>
+            <th>Categoria</th>
+            <th>Stock Actual</th>
+            <th>Stock Minimo</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="@(item.StockActual < item.StockMinimo ? "table-danger" : "")">
+                <td>@item.Nombre</td>
+                <td>@item.SKU</td>
+                <td>@item.Categoria</td>
+                <td>@item.StockActual</td>
+                <td>@item.StockMinimo</td>
+            </tr>
+        }
+    </tbody>
+</table>

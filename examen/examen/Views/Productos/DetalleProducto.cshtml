@@ -1,0 +1,44 @@
+﻿@model examen.Models.Producto
+
+@{
+    ViewData["Title"] = "DetallesProducto";
+}
+
+
+<h1>Detalles Producto</h1>
+<hr />
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Producto</div>
+    <div class="card-body">
+        <dl>
+            <dt>Id</dt>
+            <dd>@Model.Id</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.Nombre</dd>
+
+            <dt>SKU</dt>
+            <dd>@Model.SKU</dd>
+
+            <dt>Descripción</dt>
+            <dd>@Model.Descripcion</dd>
+
+            <dt>Precio</dt>
+            <dd>@Model.Precio</dd>
+
+            <dt>Unidad Medida</dt>
+            <dd>@Model.UnidadMedida</dd>
+
+            <dt>Categoria</dt>
+            <dd>@Model.Categoria?.Nombre</dd>
+
+            <dt>Stock</dt>
+            <dd>@Model.StockMinimo</dd>
+
+        </dl>
+
+    </div>
+</div>
+<a asp-action="Productos" class="btn-secondary">Volver</a>
+
+

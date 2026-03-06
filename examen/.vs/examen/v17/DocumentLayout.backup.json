@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\productos\\detalleproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\productos\\detalleproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\productos\\eliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\productos\\eliminarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\productos\\editarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\productos\\editarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\productos\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\productos\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\inventario\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\inventario\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\viewmodels\\stockviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\viewmodels\\stockviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\productos\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\productos\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\controllers\\salidainventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\controllers\\salidainventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\entradainventario\\detalleentrada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\entradainventario\\detalleentrada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\salidainventario\\crearsalida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\salidainventario\\crearsalida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\views\\salidainventario\\detallesalida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\views\\salidainventario\\detallesalida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|c:\\users\\5542m\\source\\repos\\examentecnico\\examen\\examen\\controllers\\entradainventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A3C8AC-6AAE-42F3-9165-5275423894F4}|examen\\examen.csproj|solutionrelative:examen\\controllers\\entradainventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetalleProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\DetalleProducto.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Productos\\DetalleProducto.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\DetalleProducto.cshtml",
+              "RelativeToolTip": "examen\\Views\\Productos\\DetalleProducto.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:09:58.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EliminarProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\EliminarProducto.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Productos\\EliminarProducto.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\EliminarProducto.cshtml",
+              "RelativeToolTip": "examen\\Views\\Productos\\EliminarProducto.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:09:31.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\EditarProducto.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Productos\\EditarProducto.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\EditarProducto.cshtml",
+              "RelativeToolTip": "examen\\Views\\Productos\\EditarProducto.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:04:49.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "examen\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:01:40.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stock.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Inventario\\Stock.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Inventario\\Stock.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Inventario\\Stock.cshtml",
+              "RelativeToolTip": "examen\\Views\\Inventario\\Stock.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:01:31.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrearProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\CrearProducto.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Productos\\CrearProducto.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\CrearProducto.cshtml",
+              "RelativeToolTip": "examen\\Views\\Productos\\CrearProducto.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T21:52:55.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StockViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\ViewModels\\StockViewModel.cs",
+              "RelativeDocumentMoniker": "examen\\ViewModels\\StockViewModel.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\ViewModels\\StockViewModel.cs",
+              "RelativeToolTip": "examen\\ViewModels\\StockViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:48:50.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "examen\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "examen\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:24:11.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleEntrada.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\EntradaInventario\\DetalleEntrada.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\EntradaInventario\\DetalleEntrada.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\EntradaInventario\\DetalleEntrada.cshtml",
+              "RelativeToolTip": "examen\\Views\\EntradaInventario\\DetalleEntrada.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T21:20:06.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\InventarioController.cs",
+              "RelativeDocumentMoniker": "examen\\Controllers\\InventarioController.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\InventarioController.cs",
+              "RelativeToolTip": "examen\\Controllers\\InventarioController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA/wBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:27:02.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\Productos.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Productos\\Productos.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Productos\\Productos.cshtml",
+              "RelativeToolTip": "examen\\Views\\Productos\\Productos.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T21:39:53.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "examen\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T22:01:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalidaInventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\SalidaInventarioController.cs",
+              "RelativeDocumentMoniker": "examen\\Controllers\\SalidaInventarioController.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\SalidaInventarioController.cs",
+              "RelativeToolTip": "examen\\Controllers\\SalidaInventarioController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:18:59.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "examen\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Models\\Producto.cs",
+              "RelativeToolTip": "examen\\Models\\Producto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:24:20.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CrearSalida.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\SalidaInventario\\CrearSalida.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\SalidaInventario\\CrearSalida.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\SalidaInventario\\CrearSalida.cshtml",
+              "RelativeToolTip": "examen\\Views\\SalidaInventario\\CrearSalida.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T21:39:44.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DetalleSalida.cshtml",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\SalidaInventario\\DetalleSalida.cshtml",
+              "RelativeDocumentMoniker": "examen\\Views\\SalidaInventario\\DetalleSalida.cshtml",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Views\\SalidaInventario\\DetalleSalida.cshtml",
+              "RelativeToolTip": "examen\\Views\\SalidaInventario\\DetalleSalida.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T21:20:01.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntradaInventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\EntradaInventarioController.cs",
+              "RelativeDocumentMoniker": "examen\\Controllers\\EntradaInventarioController.cs",
+              "ToolTip": "C:\\Users\\5542m\\source\\repos\\ExamenTecnico\\examen\\examen\\Controllers\\EntradaInventarioController.cs",
+              "RelativeToolTip": "examen\\Controllers\\EntradaInventarioController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:18:50.636Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1290,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

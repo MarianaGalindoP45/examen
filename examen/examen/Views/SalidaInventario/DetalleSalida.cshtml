@@ -1,0 +1,31 @@
+﻿@model examen.Models.SalidaInventario
+
+@{
+    ViewData["Title"] = "DetalleSalidaInventario";
+}
+
+
+<h1>Detalle de Salida del Inventario</h1>
+<hr />
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Salida de Inventario</div>
+    <div class="card-body">
+        <dl>
+            <dt>Producto</dt>
+            <dd>@Model.Producto?.Nombre</dd>
+
+            <dt>Cantidad</dt>
+            <dd>@Model.Cantidad</dd>
+
+            <dt>Fecha</dt>
+            <dd>@Model.Fecha</dd>
+
+            <dt>Motivo</dt>
+            <dd>@Model.Motivo</dd>
+        </dl>
+
+    </div>
+</div>
+<a asp-action="SalidaInventario" class="btn-secondary">Volver</a>
+
+

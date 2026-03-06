@@ -1,0 +1,19 @@
+﻿@model examen.Models.Categoria
+
+@{
+    ViewData["Title"] = "EditarCategoria";
+}
+
+
+<h1>Editar Categoria</h1>
+<hr />
+<form asp-action="EditarCategoria" asp-controller="Categorias" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label" id="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>

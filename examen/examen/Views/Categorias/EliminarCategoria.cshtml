@@ -1,0 +1,37 @@
+﻿@model examen.Models.Categoria
+
+@{
+    ViewData["Title"] = "EliminarCategoria";
+}
+
+
+<h1>Elimitar Categoria</h1>
+
+<h3>¿Esta seguro de que desea eliminar esta Categoria?</h3>
+<h5>Si la categoria tiene un producto asociado, esta no se eliminará</h5>
+<hr />
+<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+    <div class="card-header">Categoria</div>
+    <div class="card-body">
+        <dl>
+            <dt>Id</dt>
+            <dd>@Model.Id</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.Nombre</dd>
+
+        </dl>
+    </div>
+</div>
+
+
+<div>
+
+    <form asp-action="EliminarCategoria" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Categorias" class="btn-secondary">Volver</a>
+
+    </form>
+
+</div>
