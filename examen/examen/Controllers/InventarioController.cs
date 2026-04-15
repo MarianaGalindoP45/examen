@@ -1,10 +1,12 @@
-﻿using examen.Base;
+using examen.Base;
+using examen.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using examen.ViewModels;
 
 namespace examen.Controllers
 {
+    [Authorize]
     public class InventarioController : Controller
     {
         private readonly ApplicationDbContext _context;

@@ -220,3 +220,5 @@ C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\obj\Debug\net10.0\refint
 C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\obj\Debug\net10.0\examen.pdb
 C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\obj\Debug\net10.0\examen.genruntimeconfig.cache
 C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\obj\Debug\net10.0\ref\examen.dll
+C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\5542m\source\repos\ExamenTecnico\examen\examen\obj\Debug\net10.0\examen.sourcelink.json

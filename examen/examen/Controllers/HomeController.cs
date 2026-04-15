@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using examen.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace examen.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -27,10 +29,12 @@ namespace examen.Controllers
         {
             return View();
         }
+
         public IActionResult Productos()
         {
             return View();
         }
+
         public IActionResult EntradaInventario()
         {
             return View();
