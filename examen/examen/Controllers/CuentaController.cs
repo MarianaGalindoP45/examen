@@ -27,6 +27,62 @@ namespace examen.Controllers
 
         [AllowAnonymous]
         [HttpGet]
+        public IActionResult Registro(string? returnUrl = null)
+        {
+            if (User.Identity?.IsAuthenticated == true)
+            {
+                return RedirectToLocal(returnUrl);
+            }
+
+            ViewData["ReturnUrl"] = returnUrl;
+            return View(new RegistroViewModel());
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Registro(RegistroViewModel model, string? returnUrl = null)
+        {
+            ViewData["ReturnUrl"] = returnUrl;
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var correo = model.Correo.Trim();
+            var usuarioExistente = await _context.Usuarios.AnyAsync(u => u.Correo == correo);
+            if (usuarioExistente)
+            {
+                ModelState.AddModelError(nameof(model.Correo), "Ese correo ya esta registrado.");
+                return View(model);
+            }
+
+            var usuario = new Usuario
+            {
+                Correo = correo
+            };
+
+            usuario.ContrasenaHash = _passwordHasher.HashPassword(usuario, model.Contrasena);
+
+            _context.Usuarios.Add(usuario);
+            await _context.SaveChangesAsync();
+
+            var token = _jwtTokenService.GenerateToken(usuario);
+            Response.Cookies.Append("auth_token", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = Request.IsHttps,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTimeOffset.UtcNow.AddHours(1)
+            });
+
+            TempData["SuccessMessage"] = "Cuenta creada correctamente.";
+            return RedirectToLocal(returnUrl);
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
         public IActionResult Login(string? returnUrl = null)
         {
             if (User.Identity?.IsAuthenticated == true)

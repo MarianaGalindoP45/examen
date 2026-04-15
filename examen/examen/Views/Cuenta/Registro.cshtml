@@ -1,16 +1,16 @@
-@model examen.ViewModels.LoginViewModel
+@model examen.ViewModels.RegistroViewModel
 
 @{
-    ViewData["Title"] = "Iniciar sesion";
+    ViewData["Title"] = "Crear cuenta";
 }
 
 <div class="row justify-content-center">
     <div class="col-md-5 col-lg-4">
         <div class="card shadow-sm border-0 mt-4">
             <div class="card-body p-4">
-                <h1 class="h3 text-center mb-4">Iniciar sesion</h1>
+                <h1 class="h3 text-center mb-4">Crear cuenta</h1>
 
-                <form asp-action="Login" method="post">
+                <form asp-action="Registro" method="post">
                     @Html.AntiForgeryToken()
                     <input type="hidden" name="returnUrl" value="@(ViewData["ReturnUrl"])" />
 
@@ -24,24 +24,23 @@
 
                     <div class="mb-3">
                         <label asp-for="Contrasena" class="form-label"></label>
-                        <input asp-for="Contrasena" class="form-control" autocomplete="current-password" />
+                        <input asp-for="Contrasena" class="form-control" autocomplete="new-password" />
                         <span asp-validation-for="Contrasena" class="text-danger"></span>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                    <div class="mb-3">
+                        <label asp-for="ConfirmarContrasena" class="form-label"></label>
+                        <input asp-for="ConfirmarContrasena" class="form-control" autocomplete="new-password" />
+                        <span asp-validation-for="ConfirmarContrasena" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Crear cuenta</button>
                 </form>
 
-                <p class="text-center mt-3 mb-3">
-                    No tienes cuenta?
-                    <a asp-controller="Cuenta" asp-action="Registro" asp-route-returnUrl="@(ViewData["ReturnUrl"])">Crea una aqui</a>
+                <p class="text-center mt-3 mb-0">
+                    Ya tienes cuenta?
+                    <a asp-controller="Cuenta" asp-action="Login" asp-route-returnUrl="@(ViewData["ReturnUrl"])">Inicia sesion</a>
                 </p>
-
-                <div class="alert alert-info mt-4 mb-0">
-                    Usuario inicial:
-                    <strong>admin@examen.com</strong><br />
-                    Contrasena:
-                    <strong>Admin123*</strong>
-                </div>
             </div>
         </div>
     </div>
